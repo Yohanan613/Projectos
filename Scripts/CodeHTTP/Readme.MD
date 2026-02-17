@@ -1,13 +1,13 @@
-###Este script lee un archivo CSV que contiene una columna llamada "URL" y verifica cuáles enlaces funcionan correctamente (es decir, devuelven código HTTP "200").
+### Este script lee un archivo CSV que contiene una columna llamada "URL" y verifica cuáles enlaces funcionan correctamente (es decir, devuelven código HTTP "200").
 
 
 ============================================================================================
-#Ventajas:
+# Ventajas:
   -Usa múltiples hilos (ejecución en paralelo).
 
   -Tiene sistema de reintentos automáticos si una página responde con error temporal.
 
-#Al finalizar:
+# Al finalizar:
 
   -Guarda únicamente las filas cuya URL respondió correctamente.
 
@@ -15,11 +15,11 @@
 
   -Muestra en consola qué URLs fueron válidas.
 
-#En resumen: Limpia tu base de datos dejando solo URLs que realmente funcionan.
+# En resumen: Limpia tu base de datos dejando solo URLs que realmente funcionan.
 
 
-==============================================================================================
-##Dependencias
+============================================================================================
+## Dependencias
 
 Necesitas instalar: pandas & requests
 
@@ -27,8 +27,8 @@ Usa el siguiente comando:
 pip install pandas
 pip install requests
 
-==============================================================================================
-##Librerías utilizadas:
+============================================================================================
+## Librerías utilizadas:
 
   -pandas → leer y guardar CSV
 
@@ -39,8 +39,8 @@ pip install requests
   -urllib3 → manejar reintentos automáticos
 
 
-==============================================================================================
-##Cómo usarlo:
+============================================================================================
+## Cómo usarlo:
 
   -Coloca tu archivo "Base_de_datos.csv" en la misma carpeta.
 
@@ -58,4 +58,5 @@ output_ok_code_200_part_2.csv
 
 
 Cada uno contiene solo URLs válidas.
+
 
