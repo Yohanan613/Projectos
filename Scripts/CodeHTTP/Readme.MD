@@ -19,33 +19,34 @@
 
 ## Dependencias
 
-Necesitas instalar: *pandas & requests*
+Necesitas instalar: **pandas & requests**
 
-  Usa el siguiente comando:
-    -pip install pandas
-    -pip install requests
+  **Usa el siguiente comando:**
+-pip install pandas
+-pip install requests
 
 
 ## Librerías utilizadas:
-  -pandas → leer y guardar CSV
-  -requests → hacer solicitudes HTTP
-  -concurrent.futures → ejecutar en paralelo
-  -urllib3 → manejar reintentos automáticos
+-pandas → leer y guardar CSV
+
+-requests → hacer solicitudes HTTP
+
+-concurrent.futures → ejecutar en paralelo
+
+-urllib3 → manejar reintentos automáticos
 
 
 
 ## Cómo usarlo:
+-Coloca tu archivo "Base_de_datos.csv" en la misma carpeta.
 
-  -Coloca tu archivo "Base_de_datos.csv" en la misma carpeta.
-
-  -ASEGURATE de que tenga una columna llamada "URL".
-
-Ejecuta:
-
-  python Codigos_HTTP.py
+-ASEGURATE de que tenga una columna llamada "URL".
 
 
-Se generarán archivos como:
+**Ejecuta:**
+python Codigos_HTTP.py
+
+**Se generarán archivos como:**
 
 -output_ok_code_200_part_1.csv
 
@@ -53,6 +54,7 @@ Se generarán archivos como:
 
 **Cada uno contiene solo URLs válidas.**
 #
+
 
 
 
