@@ -50,17 +50,18 @@ pip install playsound
 
 ## Cómo usarlo:
 
-- Coloca tu archivo "Base_de_datos_7.csv" en la misma carpeta.
+- Coloca tu archivo "Base_de_datos.csv" en la misma carpeta.
 - Configura tu API Key de OpenAI como variable de entorno o en un archivo llamado "OPENAI_API_KEY.env".
 
 **Ejecuta:**
 
-python Enrich_Goals.py
+- python Enrich_Goals.py
 
 **Se generará un archivo llamado:**
 
-Base_de_datos_goals_enriched_7.csv
+- Base_de_datos_goals_enriched.csv
 
-**Este archivo contendrá la columna "goals" mejorada automáticamente.**
+### Este archivo contendrá la columna "goals" mejorada automáticamente.**
+
 
 
