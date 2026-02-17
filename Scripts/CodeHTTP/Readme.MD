@@ -17,7 +17,6 @@
 # En resumen: Limpia tu base de datos dejando solo URLs que realmente funcionan.
 
 
-============================================================================================
 ## Dependencias
 
 Necesitas instalar: pandas & requests
@@ -26,7 +25,7 @@ Usa el siguiente comando:
 pip install pandas
 pip install requests
 
-============================================================================================
+
 ## Librerías utilizadas:
 
   -pandas → leer y guardar CSV
@@ -38,7 +37,7 @@ pip install requests
   -urllib3 → manejar reintentos automáticos
 
 
-============================================================================================
+
 ## Cómo usarlo:
 
   -Coloca tu archivo "Base_de_datos.csv" en la misma carpeta.
@@ -57,6 +56,7 @@ output_ok_code_200_part_2.csv
 
 
 Cada uno contiene solo URLs válidas.
+#
 
 
 
