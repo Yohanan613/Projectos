@@ -1,4 +1,4 @@
-### *Este script lee un archivo CSV y mejora automáticamente el contenido de la columna "goals" utilizando la API de OpenAI, generando una versión optimizada y estandarizada de cada objetivo.*
+# *Este script lee un archivo CSV y mejora automáticamente el contenido de la columna "goals" utilizando la API de OpenAI, generando una versión optimizada y estandarizada de cada objetivo.*
 
 
 
@@ -62,3 +62,4 @@ python Enrich_Goals.py
 Base_de_datos_goals_enriched_7.csv
 
 **Este archivo contendrá la columna "goals" mejorada automáticamente.**
+
