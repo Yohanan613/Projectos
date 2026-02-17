@@ -15,8 +15,8 @@ from playsound import playsound
 #                         CONFIGURACIÓN
 # ========================================================================
 
-INPUT_FILE = "Base_de_datos_7.csv"
-OUTPUT_FILE = "Base_de_datos_goals_enriched_7.csv"
+INPUT_FILE = "Base_de_datos.csv"
+OUTPUT_FILE = "Base_de_datos_goals_enriched.csv"
 
 # Prompt guardado en OpenAI (el tuyo)
 OPENAI_PROMPT_ID = "pmpt_6993622c1c788196b5037e69c5ece5ac00d48254343da37b"
@@ -182,3 +182,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
