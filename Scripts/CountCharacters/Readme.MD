@@ -1,6 +1,6 @@
 ### *Este script lee múltiples filas de una columna de un archivo CSV, calcula cuántos caracteres tiene cada fila y determina cuál es el texto con menor cantidad de caracteres (con un mínimo de 100).*
 
----
+
 
 ## Ventajas:
 
@@ -10,7 +10,7 @@
 - Permite establecer un mínimo de caracteres (>= 100).
 - Identifica rápidamente el texto más corto válido.
 
----
+
 
 ## Al finalizar:
 
@@ -18,13 +18,13 @@
 - Indica cuántos caracteres tiene.
 - Indica el número de fila original donde se encuentra.
 
----
+
 
 ## En resumen:
 
 Permite validar la calidad mínima del contenido en una columna específica y detectar textos que podrían estar incompletos o demasiado cortos.
 
----
+
 
 ## Dependencias
 
@@ -34,13 +34,13 @@ Necesitas instalar: **polars**
 
 pip install polars
 
----
+
 
 ## Librerías utilizadas:
 
 - polars → leer y analizar archivos CSV de forma rápida y eficiente.
 
----
+
 
 ## Cómo usarlo:
 
@@ -56,3 +56,4 @@ python Cuenta_caracterez.py
 - Texto más corto válido.
 - Cantidad de caracteres.
 - Número de fila.
+
