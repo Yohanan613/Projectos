@@ -16,10 +16,10 @@
 
 # Dependencias
 
-# Necesitas instalar: polars
-#
- Usa el siguiente comando:
- pip install polars
+Necesitas instalar: **polars**
+
+**Usa el siguiente comando:**
+  -pip install polars
 
 # Librerías utilizadas:
  - polars → leer y analizar archivos CSV de forma rápida
@@ -33,3 +33,4 @@
 
  El resultado se mostrará directamente en la consola.
 #
+
