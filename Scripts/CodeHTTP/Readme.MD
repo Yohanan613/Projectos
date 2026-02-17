@@ -21,8 +21,10 @@
 
 Necesitas instalar: **pandas & requests**
 
-  **Usa el siguiente comando:**
+**Usa el siguiente comando:**
+
 -pip install pandas
+
 -pip install requests
 
 
@@ -54,6 +56,7 @@ python Codigos_HTTP.py
 
 **Cada uno contiene solo URLs válidas.**
 #
+
 
 
 
