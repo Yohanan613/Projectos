@@ -19,21 +19,17 @@
 
 ## Dependencias
 
-Necesitas instalar: pandas & requests
+Necesitas instalar: *pandas & requests*
 
-Usa el siguiente comando:
-pip install pandas
-pip install requests
+  Usa el siguiente comando:
+    -pip install pandas
+    -pip install requests
 
 
 ## Librerías utilizadas:
-
   -pandas → leer y guardar CSV
-
   -requests → hacer solicitudes HTTP
-
   -concurrent.futures → ejecutar en paralelo
-
   -urllib3 → manejar reintentos automáticos
 
 
@@ -46,17 +42,17 @@ pip install requests
 
 Ejecuta:
 
-python Codigos_HTTP.py
+  python Codigos_HTTP.py
 
 
 Se generarán archivos como:
 
-output_ok_code_200_part_1.csv
-output_ok_code_200_part_2.csv
-
-
-Cada uno contiene solo URLs válidas.
+  -output_ok_code_200_part_1.csv
+  -output_ok_code_200_part_2.csv
+    
+      **Cada uno contiene solo URLs válidas.**
 #
+
 
 
 
