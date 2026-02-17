@@ -1,7 +1,6 @@
-### Este script lee un archivo CSV que contiene una columna llamada "URL" y verifica cuáles enlaces funcionan correctamente (es decir, devuelven código HTTP "200").
+### *Este script lee un archivo CSV que contiene una columna llamada "URL" y verifica cuáles enlaces funcionan correctamente (es decir, devuelven código HTTP "200").*
 
-
-============================================================================================
+#
 # Ventajas:
   -Usa múltiples hilos (ejecución en paralelo).
 
@@ -58,5 +57,6 @@ output_ok_code_200_part_2.csv
 
 
 Cada uno contiene solo URLs válidas.
+
 
 
