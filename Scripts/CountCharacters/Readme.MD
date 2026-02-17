@@ -1,36 +1,58 @@
-# *Este script lee un archivo CSV y analiza una columna llamada "goals" para encontrar el texto más corto que tenga al menos 100 caracteres.*
-#
-# Ventajas:
- - Filtra automáticamente valores vacíos, nulos o incorrectos.
- - Cuenta los caracteres de cada texto de forma rápida y eficiente.
- - Ordena los resultados automáticamente.
-#
-# Al finalizar:
- - Muestra en consola el texto más corto válido.
- - Indica cuántos caracteres tiene.
- - Indica en qué número de fila se encuentra.
-#
-# En resumen:
- Permite detectar textos demasiado cortos y validar la calidad mínima del contenido.
-#
+### *Este script lee múltiples filas de una columna de un archivo CSV, calcula cuántos caracteres tiene cada fila y determina cuál es el texto con menor cantidad de caracteres (con un mínimo de 100).*
 
-# Dependencias
+---
+
+## Ventajas:
+
+- Usa lectura eficiente con Polars.
+- Permite manejar archivos con caracteres dañados (utf8-lossy).
+- Filtra automáticamente valores nulos, vacíos o inválidos.
+- Permite establecer un mínimo de caracteres (>= 100).
+- Identifica rápidamente el texto más corto válido.
+
+---
+
+## Al finalizar:
+
+- Muestra en consola el texto con menor cantidad de caracteres.
+- Indica cuántos caracteres tiene.
+- Indica el número de fila original donde se encuentra.
+
+---
+
+## En resumen:
+
+Permite validar la calidad mínima del contenido en una columna específica y detectar textos que podrían estar incompletos o demasiado cortos.
+
+---
+
+## Dependencias
 
 Necesitas instalar: **polars**
 
 **Usa el siguiente comando:**
-  -pip install polars
 
-# Librerías utilizadas:
- - polars → leer y analizar archivos CSV de forma rápida
+pip install polars
 
-# Cómo usarlo:
- - Coloca tu archivo "metas.csv" en la misma carpeta.
- - ASEGURATE de que tenga una columna llamada "goals".
+---
 
- Ejecuta:
- python Cuenta_caracterez.py
+## Librerías utilizadas:
 
- El resultado se mostrará directamente en la consola.
-#
+- polars → leer y analizar archivos CSV de forma rápida y eficiente.
 
+---
+
+## Cómo usarlo:
+
+- Coloca tu archivo "metas.csv" en la misma carpeta.
+- ASEGÚRATE de que tenga una columna llamada "goals".
+
+**Ejecuta:**
+
+python Cuenta_caracterez.py
+
+**El resultado se mostrará directamente en la consola indicando:**
+
+- Texto más corto válido.
+- Cantidad de caracteres.
+- Número de fila.
