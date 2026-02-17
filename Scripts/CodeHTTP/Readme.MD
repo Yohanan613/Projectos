@@ -47,11 +47,13 @@ Ejecuta:
 
 Se generarán archivos como:
 
-  -output_ok_code_200_part_1.csv
-  -output_ok_code_200_part_2.csv
-    
-      **Cada uno contiene solo URLs válidas.**
+-output_ok_code_200_part_1.csv
+
+-output_ok_code_200_part_2.csv
+
+**Cada uno contiene solo URLs válidas.**
 #
+
 
 
 
