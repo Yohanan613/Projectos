@@ -1,0 +1,12 @@
+ABRIR DOS VENTANAS POWERSHELL CON SHIFT-CLICK DERECHO
+Y PONER ESTOS SCRIPTS EN CADA VENTANA:
+
+1.
+cd backend
+pip install flask flask-cors
+python app.py
+
+2.
+cd frontend
+npm install
+npm run dev
