@@ -7,6 +7,7 @@ pip install flask flask-cors
 python app.py
 
 2.
+npm create vite@latest frontend (Selecciona:Ignore files and continue, React y JavaScript+ReactCopiler , No y por ultimo SI)
 cd frontend
 npm install
 npm run dev
